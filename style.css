@@ -311,6 +311,12 @@ article .icon{
     position: relative;
     
   }
+  .project-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+  }
   
   .color-container {
     border-color: rgb(163, 163, 163);
@@ -332,3 +338,4 @@ article .icon{
     color: black;
     border-color: rgb(163, 163, 163);
   } 
+  /* CONTACT SECTION */
