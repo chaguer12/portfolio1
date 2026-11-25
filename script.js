@@ -1,8 +1,10 @@
 function toggleMenu(){
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");
-    menu.classList.toggle('open')
-    icon.classList.toggle('open')
+    const isOpen = menu.classList.toggle('open');
+    icon.classList.toggle('open', isOpen);
+    icon.setAttribute('aria-expanded', String(isOpen));
+    icon.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
 }
 
 

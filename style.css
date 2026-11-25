@@ -79,7 +79,10 @@ a:hover{
     justify-content: space-between;
     height: 24px;
     width: 30px;
-    cursor: pointer;    
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
 }
 .hamburger-icon span{
     width: 100%;
